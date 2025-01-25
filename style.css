@@ -1,6 +1,9 @@
 /* *{
     background: #F1F1F3;
 }  */
+body {
+  background-color: #f1f1f3;
+}
 .fire_sans {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -12,6 +15,10 @@
   height: 100px;
   margin: 31px 160px;
 }
+.tittle{
+    font-size: 40px;
+    font-weight: bold;
+}
 .dark_1 {
   color: #0e0e0e;
 }
@@ -20,6 +27,15 @@
 }
 .background_01 {
   background-color: #c6e4d6;
+}
+.background_02 {
+  background-color: #c7d5ef;
+}
+.background_03 {
+  background-color: #a3ddc3;
+}
+.background_04 {
+  background-color: #f7e8bf;
 }
 .heading_tittle {
   font-size: 32px;
@@ -41,7 +57,7 @@
   width: 1280hug;
   height: 560hug;
   word-spacing: 64;
- border-radius: 24px;
+  border-radius: 24px;
 }
 
 .hero_div {
@@ -76,17 +92,18 @@
   height: 400px;
   margin: 80px 80px 60px 64px;
 }
+
 .pillars {
   width: 1280hug;
   height: 326hug;
   word-spacing: 64;
-  margin: 80px 0 80px  0;
+  margin: 80px 0 80px 0;
 }
 .pillars_div {
   width: 1280hug;
   height: 244hug;
   display: flex;
-
+  gap: 24px;
 }
 .pillar {
   width: 302hug;
@@ -95,7 +112,6 @@
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 24px;
-  margin-right: 24px;
 }
 .pillar_img img {
   width: 64px;
@@ -110,7 +126,94 @@
   font-weight: bold;
   color: #0e0e0e;
 }
-.plllar_info h1 {
+.plllar_info p {
   font-size: 16px;
-  color: #b7b7b7;
+  color: #7e7c7c;
 }
+.future_plan {
+  margin-bottom: 80px;
+}
+.future_cards {
+  width: 1280hug;
+  height: 325hug;
+  display: flex;
+  margin-bottom: 32px;
+  gap: 24px;
+}
+.future_card {
+  width: 411hug;
+  height: 325hug;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.future_plan h1 {
+  margin-bottom: 32px;
+}
+.future_plan p {
+  margin-bottom: 24px;
+}
+
+.future_card_info h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.future_card_info p {
+  font-size: 16px;
+  color: #7e7c7c;
+}
+.future_btn1 {
+  width: 122px;
+  height: 41px;
+  background-color: #5490f5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.future_btn2 {
+  width: 122px;
+  height: 41px;
+  background-color: #09a15c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.future_btn3 {
+  width: 122px;
+  height: 41px;
+  background-color: #ffc239;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.yunus_div {
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 48px 24px;
+  border-radius: 8px;
+}
+.option_table{
+    width: 1280hug;
+    height: 409hug;
+    padding: 32px;
+    background-color: white;
+    
+}
+.option_table table{
+    width: 1216hug;
+    height: 345hug;
+    margin: 32px;
+    
+}
+.option_table table, th, td {
+    border: 1px solid rgb(103, 102, 102);
+    border-collapse: collapse;
+    padding: 24px;
+  }
+  .option_table table th p{
+display: flex;
+    justify-content: space-between;
+  }
+
+
