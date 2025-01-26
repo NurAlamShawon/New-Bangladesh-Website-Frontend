@@ -4,26 +4,27 @@
 body {
   background-color: #f1f1f3;
 }
-.fire_sans {
+.work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .heading {
   display: flex;
   justify-content: space-between;
   height: 100px;
   margin: 31px 160px;
 }
-.tittle{
-    font-size: 40px;
-    font-weight: bold;
+.tittle {
+  font-size: 40px;
+  font-weight: bold;
 }
 .dark_1 {
   color: #0e0e0e;
 }
 .dark_2 {
-  color: #7e7e7e;
+  color: #8a8989;
 }
 .background_01 {
   background-color: #c6e4d6;
@@ -37,7 +38,7 @@ body {
 .background_04 {
   background-color: #f7e8bf;
 }
-.background_05{
+.background_05 {
   background-color: white;
 }
 .heading_tittle {
@@ -127,25 +128,27 @@ body {
 .plllar_info h1 {
   font-size: 20px;
   font-weight: bold;
-  color: #0e0e0e;
+  color: #343333;
 }
 .plllar_info p {
   font-size: 16px;
-  color: #7e7c7c;
+  color: #686666;
 }
 .future_plan {
   margin-bottom: 80px;
+  width: 1280hug;
+  height: 765hug;
 }
 .future_cards {
   width: 1280hug;
-  height: 325hug;
+  height: 285hug;
   display: flex;
   margin-bottom: 32px;
   gap: 24px;
 }
 .future_card {
-  width: 411hug;
-  height: 325hug;
+  width: 490px;
+  height: 285px;
   border-radius: 16px;
   padding: 32px;
 }
@@ -155,15 +158,17 @@ body {
 }
 .future_plan p {
   margin-bottom: 24px;
+  color: #686666;
 }
 
 .future_card_info h1 {
   font-size: 20px;
   font-weight: bold;
+  color: #343333;
 }
 .future_card_info p {
   font-size: 16px;
-  color: #7e7c7c;
+  color: #686666;
 }
 .future_btn1 {
   width: 122px;
@@ -196,79 +201,97 @@ body {
   padding: 48px 24px;
   border-radius: 16px;
 }
-.option_section{
-    width: 1280hug;
-    height: 481hug;
-    margin-bottom: 80px;
+.yunus_div .yunus {
+  font-size: 16px;
+  color: #2b2a2a;
 }
-.options{
-    width: 1280hug;
-    height: 409hug;
-    background-color: white;
-    border-radius: 16px;
-    padding: 32px;
-
+.yunus_name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2b2a2a;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.yunus_div .yunus_res {
+  font-size: 16px;
+  color: #676767;
+}
+.option_section {
+  width: 1280hug;
+  height: 481hug;
+  margin-bottom: 80px;
+}
+.options {
+  width: 1280hug;
+  height: 409hug;
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px;
 }
 
- table, th, td {
+table,
+th,
+td {
   border: 0.1px solid rgb(196, 192, 192);
   border-collapse: collapse;
 }
-.option_heading{
+table td {
+  font-weight: bold;
+}
+.option_heading {
   display: flex;
   justify-content: space-between;
   padding: 24px;
-
 }
-.option_heading .option_01 p{
+.option_heading .option_01 p {
   font-size: 20px;
   font-weight: 600;
 }
-.option_heading .option_02 p{
+.option_heading .option_02 p {
   font-size: 20px;
   font-weight: 600;
 }
 
-
-.options table{
+.options table {
   width: 1500px;
   height: 345px;
 }
 
-
-.question{
+.question {
   padding: 37px 24px;
 }
 
-.select{
+.select {
   border: 0.5px solid rgb(53, 53, 53);
   margin: 24px;
   width: 152px;
   height: 44px;
   border-radius: 4px;
   padding: 12px;
+  font-weight: bold;
 }
-.news{
+.news {
   width: 1280hug;
-    height: 1406hug;
-    margin-bottom: 56px;
+  height: 1406hug;
+  margin-bottom: 56px;
 }
-.news_head{
-font-size: 40px;
-font-weight: bold;
-margin-bottom: 24px;
+.news_head {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
-.news_des{
+.news_des {
   font-size: 16px;
   margin-bottom: 32px;
+  color: #686666;
 }
-.news_cards{
+.news_cards {
   width: 1280hug;
   height: 1254hug;
   flex-direction: row;
   align-items: center;
 }
-.news_card{
+.news_card {
   display: flex;
   padding: 48px;
   background-color: white;
@@ -276,25 +299,25 @@ margin-bottom: 24px;
   margin-bottom: 24px;
 }
 
-.card_picture img{
+.card_picture img {
   width: 408hug;
   height: 360hug;
   border-radius: 24px;
   margin-right: 32px;
 }
-.card_info{
+.card_info {
   width: 744hug;
   height: 290hug;
 }
-.card_info h1{
+.card_info h1 {
   font-size: 32px;
   font-weight: bold;
 }
-.card_info p{
+.card_info p {
   font-size: 16px;
-  color: #636363;
+  color: #686666;
 }
-.card_info img{
+.card_info img {
   width: 134hug;
   height: 40hug;
 }
@@ -307,37 +330,37 @@ margin-bottom: 24px;
   border-radius: 8px;
   border: none;
 }
-.donate{
+.donate {
   width: 1280hug;
   height: 464hug;
   text-align: center;
 }
-.donate_des{
+.donate_des {
   padding: 0 88px;
   font-size: 16px;
-  color: #6b6b6b;
+  color: #686666;
   margin-bottom: 32px;
 }
-.donate_cards{
+.donate_cards {
   width: 1071hug;
   height: 128hug;
   display: flex;
   align-items: center;
   gap: 30px;
-  margin:0 105px;
+  margin: 0 105px;
   padding: 0 95px;
   margin-bottom: 32px;
 }
-.donate_btn{
+.donate_btn {
   width: 265px;
   height: 128px;
   padding: 40px;
   border-radius: 16px;
   border: 0.5px solid rgb(174, 172, 172);
   font-size: 35px;
-font-weight: bolder;
+  font-weight: bolder;
 }
-.text_fill{
+.text_fill {
   width: 1032px;
   height: 64px;
   background-color: white;
@@ -345,10 +368,10 @@ font-weight: bolder;
   text-align: center;
   margin-bottom: 32px;
 }
-.text_fill  ::-webkit-input-placeholder {
+.text_fill ::-webkit-input-placeholder {
   text-align: center;
 }
-.done_btn{
+.done_btn {
   width: 154px;
   height: 56px;
   background-color: #006a50;
@@ -358,22 +381,35 @@ font-weight: bolder;
   border: none;
   margin-bottom: 80px;
 }
-.subscribe{
+.subscribe {
   width: 1280hug;
   height: 395hug;
   padding: 80px 265px;
   text-align: center;
   border-radius: 24px;
+  margin-bottom: 80px;
 }
-.subscribe_head{
+.subscribe_div {
+  width: 1100px;
+  height: 235px;
+  text-align: center;
+  
+}
+
+.subscribe_head {
   font-size: 40px;
   font-weight: bold;
 }
-.subscribe_des{
+.subscribe_des {
   font-size: 16px;
-  color: #4b4b4b;
+  color: #686666;
 }
-.subscribe_input{
+.label {
+  display: flex;
+
+}
+.subscribe_input {
+  margin-left: 135px;
   width: 580px;
   height: 20px;
   background-color: white;
@@ -381,17 +417,38 @@ font-weight: bolder;
   margin-bottom: 24px;
   padding: 18px 40px;
   border-radius: 8px 0 0 8px;
-  display: inline;
+  
 }
-.submit_btn{
-  background-color: #006A50;
+.submit_btn {
+  
+  background-color: #006a50;
   width: 170px;
   height: 57px;
   color: white;
   border: none;
   border-radius: 0 8px 8px 0;
-  display: inline;
 }
-.subscribe_end{
+.subscribe_end {
   font-size: 18px;
+}
+.footer {
+  width: 1600hug;
+  height: 226hug;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer_head {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.hr {
+  width: 1122px;
+  border: 0.1px solid #e1e1e1;
+  margin-bottom: 32px;
+}
+.footer_img {
+  width: 24px;
+  height: 24px;
+  margin-right: 23px;
 }
